@@ -1,7 +1,8 @@
 body{
     margin:0;
     padding:0;
-    
+    background: linear-gradient(to bottom, #3366ff 50%, #ffffff 50%);
+    background-repeat: no-repeat;
 }
 .container{
     width:100%;
@@ -12,5 +13,10 @@ body{
 }
 section{
     padding: 10vh;
-    background-color: hsl(224,82%,57%);
+  
+    display: flex;
+}
+.logo{
+    display: flex;
+   
 }
