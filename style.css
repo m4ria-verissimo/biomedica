@@ -1,9 +1,10 @@
 body{
     margin:0;
     padding:0;
-    background: linear-gradient(to bottom, #3366ff 30%, #ffffff 30%);
+    background: linear-gradient(to bottom, #3366ff 0%, #F2F2F2 50%);
     background-repeat: no-repeat;
-    position: relative;
+    background-attachment: fixed;
+    
 }
 .container{
     width:100%;
@@ -20,6 +21,7 @@ body{
 }
 img{
     position: relative;
+    border-radius: 5%;
 }
 .buttons{
     display: flex;
@@ -30,9 +32,9 @@ img{
 }
 button{
     width: 200px;
-    height: 50px;
+    height: 40px;
     margin: 10px;
-    font-size: 18px;
+    font-size: 15px;
     background-color: #3366ff;
     color: white;
     border: none;
