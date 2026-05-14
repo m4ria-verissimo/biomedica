@@ -1,7 +1,9 @@
 body{
     margin:0;
     padding:0;
-    background: linear-gradient(to bottom,  #1DB954 0%, #3366ff 70%, #F2F2F2 100%);
+    margin-top: 8%;
+    
+   background: linear-gradient(#004a99 0%, #f2f2f2 30%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -20,6 +22,7 @@ body{
    
 }
 img{
+    
     position: relative;
     border-radius: 5%;
 }
@@ -34,15 +37,16 @@ button{
     width: 200px;
     height: 40px;
     margin: 10px;
-    font-size: 15px;
-    background-color: #3366ff;
-    color: white;
+    font-size: 18px;
+    background-color: #c8dcf7c5;
+    color:#004a99;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
+    font-family:copperplate;
    
 }
 button:hover{
-    background-color: #0033cc;
+    background-color: #7793e6;
     cursor: pointer;
 }
