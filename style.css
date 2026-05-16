@@ -6,6 +6,9 @@ body{
     background: linear-gradient(0deg, #004a99, #f2f2f2 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     
 }
 .container{
@@ -53,4 +56,17 @@ button{
 button:hover{
     background-color: #7793e6;
     cursor: pointer;
+}
+footer {
+    background: #1F4EAD;
+    color: #0e0d0d;
+    padding: 30px 20px; 
+    text-align: center;
+    margin-top: 600px;
+    width: 100%;
+
+}
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
 }
