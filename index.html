@@ -19,13 +19,14 @@
      </div>
      <main>
         <div class="buttons">
-    <button >Nossos Produtos</button>
+    <button onclick="abrirModal()" >Nossos Produtos</button>
     <br>
     <button onclick="contato()">Contato</button>
     <br>
-    <button onclick="window.open('https://www.google.com/maps/place//data=!4m2!3m1!1s0x99c1f3fa450573:0xc4c230b9eb0a38e9?entry=s&sa=X&ved=2ahUKEwiPyrfdsL6UAxV8pZUCHdf2LhkQ4kB6BAgXEAA&hl=pt&g_ep=Eg1tbF8yMDI2MDUxM18wIOC7DCoASAJQAg%3D%3D', '_blank')">
+            <button onclick="window.location.href='https://www.google.com/maps/place/Biomedica+Esteves+%26+Anjos+LTDA/@-22.736026,-42.807344,17z/data=!3m1!4b1!4m6!3m5!1s0x99c1f3fa450573:0xc4c230b9eb0a38e9!8m2!3d-22.736026!4d-42.807344!16s%2Fg%2F11h5pzcnbj?hl=pt&entry=ttu', target='_blank'">
   Endereço
 </button>
+
         </div>
 
     </main>
@@ -36,6 +37,18 @@
      <p>BIOMEDICA <BR> ESTEVES & ANJOS LTDA - ME<p>
         <p>CNPJ: 02.704.301.0001-21</p>
     </footer>
-    <script src="app.js"></script>
+
+    <!--1 div para o modal em si, e outra para o conteudo do modal, onde tem o texto e o span é o "x" para fechar o modal -->
+
+    <div id="modalAviso" class="modal"> 
+        <div class="modal-content">
+            <span class="fechar">&times;</span>
+            <p>Em breve, disponível</p>
+        </div>
+    </div>
+
+
+
+     <script src="app.js"></script>
 </body>
 </html>
