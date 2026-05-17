@@ -16,6 +16,6 @@ function contato(){
     // "modalContato" que no caso é a div maior
     document.getElementById("fecharcntt").onclick=function(){
     //exibe o fechar do modal e na funcao exibe o mmodal-conteudo
-        document.getElementById("modal-conteudo").style.display="none";
+        document.getElementById("modalContato").style.display="none";
     }
 }
