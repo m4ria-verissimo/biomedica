@@ -104,19 +104,24 @@ main{
 .fechar {
   position: absolute;
   right: 15px;
-  top: 5px;
-  color: #aaa;
-  font-size: 28px;
+  top: 10px;
+  color: #e4d5d5;
+  line-height: 1;
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  background-color: red;
+  padding: 0 5px 0 5px;
+  border-radius: 50px;
 }
 .fechar:hover {
-  color: #000;
+  background-color:#b4a4a454;
 }
 .modalContato{
     display: none;
     position: fixed;
     z-index: 999;
+    margin: 50% 50% 50% 50% ;
     left: 0;
     top: 0;
     width: 100%;
@@ -134,4 +139,50 @@ main{
     position: relative;
     border-top: 5px solid #1F4EAD;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.tel{
+    background-color: #1F4EAD;
+    padding: 8px 1px 8px 1px ;
+    border-radius: 20px;
+    width:70%;
+    margin: 10px auto;
+    color:#fefefe;
+}
+.tel:hover{
+    background-color: #7793e6;
+}
+h2{
+    font-family:"Montserrat", Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    color:#1F4EAD;
+}
+    a{
+    background-color: rgb(57, 173, 57);
+    padding: 8px 75px 8px 75px ;
+    border-radius: 20px;
+    width:70px;
+    color:#fefefe;
+    text-decoration: none;
+    font-family:"Montserrat", Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    
+}
+a:hover{
+    background-color: rgb(124, 199, 124);
+}
+.btn-email{
+    background-color: red;
+    padding: 8px 50px 8px 50px ;
+    border-radius: 20px;
+    width:70px;
+    color:#fefefe;
+    font-family:"Montserrat", Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+
+}
+.btn-email:hover{
+    background-color:rgb(212, 79, 79);
 }
