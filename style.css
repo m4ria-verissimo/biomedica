@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-direction: column;
     
-    
 }
 .container{
     width:100%;
@@ -24,16 +23,12 @@ body{
     border-radius: 10% ;
     box-shadow: 0 6px 10px rgba(31,78,173, 0.3);
 
-
-  
-   
 }
 img{
     max-width: 280px;
     height: auto;
     border-radius: 5%;
     
-
 }
 .buttons{
     display: flex;
@@ -41,7 +36,6 @@ img{
     align-items: center;
     flex-direction: column;
     margin-top: 70px;
-
 
 }
 button{
@@ -56,9 +50,7 @@ button{
     cursor: pointer;
     font-family:"Montserrat", Arial, sans-serif;
     font-style: italic;
-   
-
-   
+    
 }
 button:hover{
     background-color: #7793e6;
@@ -102,8 +94,6 @@ main{
     border-top: 5px solid #1F4EAD;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
    
-    
-
 }
 .fechar {
   position: absolute;
@@ -131,6 +121,8 @@ main{
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
 }
 .modal-conteudo{
     background-color: #fefefe;
