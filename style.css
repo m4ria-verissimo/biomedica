@@ -151,13 +151,7 @@ main{
 .tel:hover{
     background-color: #7793e6;
 }
-h2{
-    font-family:"Montserrat", Arial, sans-serif;
-    font-style: italic;
-    font-size: 22px;
-    color:#1F4EAD;
-}
-    a{
+.whats{
     background-color: rgb(57, 173, 57);
     padding: 8px 75px 8px 75px ;
     border-radius: 20px;
@@ -167,11 +161,18 @@ h2{
     font-family:"Montserrat", Arial, sans-serif;
     font-style: italic;
     font-size: 16px;
-    
+    margin: auto;
 }
-a:hover{
+.whats:hover{
     background-color: rgb(124, 199, 124);
 }
+h2{
+    font-family:"Montserrat", Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    color:#1F4EAD;
+}
+ 
 .btn-email{
     background-color: red;
     padding: 8px 50px 8px 50px ;
@@ -185,4 +186,8 @@ a:hover{
 }
 .btn-email:hover{
     background-color:rgb(212, 79, 79);
+}
+a{
+    text-decoration: none;
+    color:#fefefe
 }
