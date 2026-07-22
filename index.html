@@ -1,66 +1,116 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biomédica</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    
-    <div class="container">
-    
-      
-       <div class="logo">
-        <img src="logo_bio-removebg-preview.png" alt="Logo Biomédica">
-       </div>
+    <header>
+        <h2>BIOMÉDICA</h2>
+        <P>Produtos hospitalares</P>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#Sobre">Sobre Nós</a>
+            <a href="qualidade">Qualidade</a>
+            <a href="contato">Contato</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h6>QUALIDADE QUE TRANSFORMA</h6>
+        <H2>Soluções que cuidam da <span>vida</span></H2>
+        <p>Fabricamos produtos hospitalares com qualidade, segurança e tecnologia para apoiar profissionais da saúde em todo o Brasil.</p>
+        <button>Conheça nossos produtos</button>
+        <button>Fale com nossa equipe</button>
 
-
-     </div>
-     <main>
-        <div class="buttons">
-    <button onclick="abrirModal()" >Nossos Produtos</button>
-    <br>
-    <button onclick="contato()">Contato</button>
-    <br>
-            <button onclick="window.location.href='https://www.google.com/maps/place/Biomedica+Esteves+%26+Anjos+LTDA/@-22.736026,-42.807344,17z/data=!3m1!4b1!4m6!3m5!1s0x99c1f3fa450573:0xc4c230b9eb0a38e9!8m2!3d-22.736026!4d-42.807344!16s%2Fg%2F11h5pzcnbj?hl=pt&entry=ttu', target='_blank'">
-  Endereço
-</button>
-
+    </section>
+    <section>
+        <ul>
+            <li>
+                <h6>Segurança</h6>
+                <p>Materiais de alta qualidade e livres de BPA</p>
+            </li>
+            <li>
+                <h6>Conformidade</h6>
+                <p>Produtos de acordo com normas de ANVISA</p>
+            </li>
+            <li>
+                <h6>Fabricação própria</h6>
+                <p>Tecnologia e controle em cada etapa</p>
+            </li>
+            <li>
+                <h6>Entrega para todo Brasil</h6>
+                <p>Agilidade e compromisso com prazos</p>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h6>Nossos produtos</h6>
+        <h4>Produtos desenvolvidos para a saúde</h4>
+        <p>Soluções práticas, seguras e eficientes para o dia a dia hospitalar</p>
+        <div>
+            <img>
+            <h6>Coletor de Urina <span>mais vendido</span></h6>
+            <p>Frasco coletor de urina em polipropileno, transparente, com tampa e alça.</p>
+            <button>seta</button>
         </div>
-
-    </main>
-    </div>
-
-
-    <footer>
-     <p>BIOMEDICA <BR> ESTEVES & ANJOS LTDA - ME<p>
-        <p>CNPJ: 02.704.301.0001-21</p>
-    </footer>
-
-    <!--1 div para o modal em si, e outra para o conteudo do modal, onde tem o texto e o span é o "x" para fechar o modal -->
-
-    <div id="modalAviso" class="modal"> 
-        <div class="modal-content">
-            <span class="fechar">&times;</span>
-            <p>Em breve, disponível </p>
+        <div>
+            <img>
+            <h6>Almotolia</h6>
+            <p>Frasco almotolia graduado para irrigação, com bico direcionador e tampa</p>
+            <button>seta</button>
         </div>
+    </section>
+    <section>
+    <div>
+        <img> 
+        <h5>Sobre nós</h5>
+        <h3>Excelencia em cada detalhe</h3>
+        <p>A Biomedica é especializada na fabricação de produtos hospitalares que unem qualidade, segurança e inovação. há anos contribuimos com hospitais, clinicas e profissionais da saúde em todo o país. </p>
+        <ul>
+            <li>
+                <h6>Missão</h6>
+                <p>Fornecer soluções seguras e eficientes para o ambiente hospitalar</p>
+            </li>
+            <li>
+               <h6>Visão</h6>
+               <p>Ser refencia nacional em qualidade e inovação no segmento hospitalar. </p>
+            </li>
+            <li>
+                <h6>Valores</h6>
+                <p>ética, qualidade, inovação, comprometimento com o cliente e responsabbilidade.</p>
+            </li>
+            <li>
+                <p>compromisso com a qualidade</p>
+            </li>
+        </ul>
     </div>
- <!-- div para o contato-->
+    </section>
+    <section>
+        <h4>SOLICITE UM ORÇAMENTO</h4>
+        <button>whatsaap</button>
+        <button>email</button>
+    </section>
+    <section>
+        <img>
+        <h5>BIOMEDICA</h5>
+        <P>SOLUÇÕES HOSPITALARES </P>
 
- <div id="modalContato" class="modal">
-    <div id="modal-conteudo" class="modal-conteudo">
-        <span id="fecharcntt" class="fechar">&times;</span>
-        <h2>Fale com a Biomédica</h2>
-        <p class="tel">(21) 26357075</p>
-        <p class="tel">(21) 26357791</p>
-       <p class="whats"> <a href="https://wa.me/5521996357791" class="btn-ligar" target="_blank">Whatsapp </a> </p>
-        <p><a href="mailto:biomedicarj@biomedicarj.com.br" class="btn-email" target="_blank"> ✉️ Enviar email</a></p>
+        <P>Solucoes em frascos e recipientes hospitalares coom qualidade e segurança.</P>
+        
+        <h6>CONTATO</h6>
+        <p class="tel">(21) 996669067</p>
+        <p>email</p>
+        <p>endereço</p>
 
-    </div>
-
-
-
-     <script src="app.js"></script>
+        <p>SIGA NOS</p>
+        <button>facebook</button>
+        <button>instagram</button>
+        
+    </section>
+   <footer>
+ <p>biomedica. desenvolvido por maria eduarda</p>
+   </footer>
 </body>
 </html>
