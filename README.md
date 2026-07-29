@@ -18,7 +18,7 @@ O objetivo é modernizar o layout, melhorar a responsividade, organizar melhor o
 
 ### Versão atual do projeto
 
-![Preview do projeto](biomedica/biomedia1.0.jpeg)
+![Preview do projeto](biomedia1.0.jpeg)
 
 > 🚧 A imagem acima representa a versão atual do projeto. A versão 2.0 está em desenvolvimento e será atualizada conforme a evolução do site.
 
