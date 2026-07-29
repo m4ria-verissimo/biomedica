@@ -1,18 +1,30 @@
-# 🧬 Biomedica
+# 🧬 Biomédica (v2.0)
 
-Site institucional desenvolvido para a empresa Biomedica, com objetivo de criar uma presença digital e estruturar informações de forma organizada.
+Site institucional em desenvolvimento para a empresa Biomédica.
 
 ---
 
 ## 💡 Sobre o projeto
 
-Este projeto foi desenvolvido para a empresa Biomedica como parte da criação de sua presença online.
+Este projeto consiste na reformulação (versão 2.0) de um site institucional desenvolvido para a empresa Biomédica.
 
-O site ainda não está oficialmente em uso como plataforma principal da empresa, servindo como base para futuras implementações.
+O objetivo é modernizar o layout, melhorar a responsividade, organizar melhor o conteúdo e proporcionar uma experiência mais agradável aos usuários.
+
+> 🚧 Projeto em desenvolvimento.
 
 ---
 
-## 🌐 Acesso ao site
+## 📷 Preview
+
+### Versão atual do projeto
+
+![Preview do projeto](imagens/preview-mobile.png)
+
+> 🚧 A imagem acima representa a versão atual do projeto. A versão 2.0 está em desenvolvimento e será atualizada conforme a evolução do site.
+
+---
+
+## 🌐 Acesso ao projeto
 
 🔗 https://m4ria-verissimo.github.io/biomedica/
 
@@ -20,32 +32,35 @@ O site ainda não está oficialmente em uso como plataforma principal da empresa
 
 ## 🛠️ Tecnologias utilizadas
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Git & GitHub Pages  
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub Pages
 
 ---
 
-## 📌 Funcionalidades
+## ✨ Funcionalidades
 
-- Página institucional com informações da empresa  
-- Organização de serviços e conteúdos  
-- Estrutura de navegação simples  
-- Layout responsivo  
-
----
-
-## 🚀 Melhorias futuras
-
-- Aprimorar responsividade mobile  
-- Expandir seções de conteúdo  
-- Melhorar interatividade  
-- Refinar identidade visual  
+- Layout responsivo
+- Estrutura institucional
+- Organização de informações
+- Navegação intuitiva
+- Design moderno
 
 ---
 
-## 👩‍💻 Desenvolvimento
+## 🚀 Próximas melhorias
 
-Maria Veríssimo  
-Estudante de Análise e Desenvolvimento de Sistemas
+- Aprimorar a experiência em dispositivos móveis
+- Refinar a identidade visual
+- Implementar novas seções
+- Otimizar o desempenho
+
+---
+
+## 👩‍💻 Desenvolvedora
+
+**Maria Veríssimo**
+
+Estudante de Análise e Desenvolvimento de Sistemas.
